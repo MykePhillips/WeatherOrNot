@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		25860F3E1F27A81A006A410C /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 25860F3D1F27A81A006A410C /* Constants.swift */; };
+		25860F401F27DFBA006A410C /* CurrentWeather.swift in Sources */ = {isa = PBXBuildFile; fileRef = 25860F3F1F27DFBA006A410C /* CurrentWeather.swift */; };
 		2595E0A81F26929A00CC6E1A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2595E0A71F26929A00CC6E1A /* AppDelegate.swift */; };
 		2595E0AA1F26929A00CC6E1A /* WeatherVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2595E0A91F26929A00CC6E1A /* WeatherVC.swift */; };
 		2595E0AD1F26929A00CC6E1A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2595E0AB1F26929A00CC6E1A /* Main.storyboard */; };
@@ -17,6 +19,8 @@
 
 /* Begin PBXFileReference section */
 		0F13845B38F81C8586FE1C7E /* Pods-WeatherOrNot.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WeatherOrNot.release.xcconfig"; path = "Pods/Target Support Files/Pods-WeatherOrNot/Pods-WeatherOrNot.release.xcconfig"; sourceTree = "<group>"; };
+		25860F3D1F27A81A006A410C /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		25860F3F1F27DFBA006A410C /* CurrentWeather.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CurrentWeather.swift; sourceTree = "<group>"; };
 		2595E0A41F26929A00CC6E1A /* WeatherOrNot.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WeatherOrNot.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		2595E0A71F26929A00CC6E1A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		2595E0A91F26929A00CC6E1A /* WeatherVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeatherVC.swift; sourceTree = "<group>"; };
@@ -76,6 +80,8 @@
 				2595E0AE1F26929A00CC6E1A /* Assets.xcassets */,
 				2595E0B01F26929A00CC6E1A /* LaunchScreen.storyboard */,
 				2595E0B31F26929A00CC6E1A /* Info.plist */,
+				25860F3D1F27A81A006A410C /* Constants.swift */,
+				25860F3F1F27DFBA006A410C /* CurrentWeather.swift */,
 			);
 			path = WeatherOrNot;
 			sourceTree = "<group>";
@@ -214,6 +220,8 @@
 			files = (
 				2595E0AA1F26929A00CC6E1A /* WeatherVC.swift in Sources */,
 				2595E0A81F26929A00CC6E1A /* AppDelegate.swift in Sources */,
+				25860F401F27DFBA006A410C /* CurrentWeather.swift in Sources */,
+				25860F3E1F27A81A006A410C /* Constants.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
